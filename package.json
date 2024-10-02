@@ -1,6 +1,15 @@
 {
+  "name": "ignite-ui",
   "private": "true",
   "workspaces": [
     "packages/*"
-  ]
+  ],
+  "scripts": {
+    "dev": "turbo dev",
+    "build": "turbo build"
+  },
+  "packageManager": "npm@9.6.6",
+  "devDependencies": {
+    "turbo": "^2.1.3"
+  }
 }
