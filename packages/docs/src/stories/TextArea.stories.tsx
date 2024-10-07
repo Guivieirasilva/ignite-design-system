@@ -2,7 +2,7 @@ import type { StoryObj, Meta } from "@storybook/react";
 import { Box, Text, TextArea, TextAreaProps } from "@ignite-ui/react";
 
 export default {
-  title: "Form/TextArea",
+  title: "Form/Text Area",
   component: TextArea,
   args: {},
   decorators: [
