@@ -8,13 +8,12 @@ export const TextArea = styled("textarea", {
   boxSizing: "border-box",
   border: "2px solid $gray900",
 
-  fontFamily: '$default',
-  fontSize: '$sm',
-  color: '$white',
-  fontWeight: '$regular',
-  resize: 'vertical',
+  fontFamily: "$default",
+  fontSize: "$sm",
+  color: "$white",
+  fontWeight: "$regular",
+  resize: "vertical",
   minHeight: 80,
-
 
   "&:has(input:focus)": {
     outline: 0,
@@ -27,8 +26,10 @@ export const TextArea = styled("textarea", {
   },
 
   "&:placeholder": {
-    color: '$gray400'
-  }
+    color: "$gray400",
+  },
 });
 
 export interface TextAreaProps extends ComponentProps<typeof TextArea> {}
+
+TextArea.displayName = "TextArea";
