@@ -29,3 +29,6 @@ export function Toast({
     </ToastRadix.Provider>
   );
 }
+
+
+Toast.displayName = "Toast";
