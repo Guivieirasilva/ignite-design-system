@@ -8,6 +8,13 @@ export default {
     src: "https://github.com/guivieirasilva.png",
     alt: "Imagem de Avatar",
   },
+  argTypes: {
+    src: {
+      constrol: {
+        type: 'text',
+      },
+    },
+  },
 } as Meta<AvatarProps>;
 
 export const Primary: StoryObj<AvatarProps> = {};

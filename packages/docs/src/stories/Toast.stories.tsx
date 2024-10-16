@@ -6,7 +6,15 @@ export default {
   component: Toast,
   args: {
     title: "Lorem ipsum",
+    variant: 'primary'
   },
+  argTypes:{
+
+    variant: {
+      options: ["primary", "success", "error"],
+      control: "inline-radio",
+    },
+  }
 } as Meta<ToastProps>;
 
 export const Primary: StoryObj<ToastProps> = {
