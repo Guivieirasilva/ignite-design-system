@@ -1,5 +1,5 @@
 import type { StoryObj, Meta } from "@storybook/react";
-import { Tooltip } from "@ignite-ui/react";
+import { Tooltip } from "@first-ignite-ui/react";
 
 export default {
   title: "Notification/Tooltip",

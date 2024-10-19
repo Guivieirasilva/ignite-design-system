@@ -1,5 +1,5 @@
 {
-  "name": "ignite-ui",
+  "name": "first-ignite-ui",
   "private": "true",
   "workspaces": [
     "packages/*"
@@ -9,7 +9,7 @@
     "build": "turbo build",
     "changeset": "changeset",
     "version-packages": "changeset version",
-    "release": "turbo run build --filter=@ignite-ui/docs && changeset publish"
+    "release": "turbo run build --filter=@first-ignite-ui/docs && changeset publish"
   },
   "packageManager": "npm@9.6.6",
   "devDependencies": {
