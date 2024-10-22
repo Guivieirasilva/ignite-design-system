@@ -19,12 +19,6 @@ jobs:
           cache: 'npm'
           cache-dependency-path: '**/package-lock.json'
 
-      - name: Clear npm cache and reinstall dependencies
-        run: |
-            rm -rf node_modules package-lock.json
-            npm install
-
-
       - run: npm ci
 
       - run: npm run build
