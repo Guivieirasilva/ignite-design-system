@@ -1,5 +1,11 @@
 # @first-ignite-ui/react
 
+## 3.0.1
+
+### Patch Changes
+
+- Add option to pass references to TextInput and adjusted to styles
+
 ## 3.0.0
 
 ### Major Changes

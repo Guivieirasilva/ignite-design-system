@@ -31,7 +31,8 @@ export const Disabled: StoryObj<TextInputProps> = {
 
 export const WithPrefix: StoryObj<TextInputProps> = {
   args:{
-    prefix: 'call.co/'
+    prefix: 'call.co/',
+    placeholder: 'your-username'
   }
 };
 
