@@ -38,5 +38,5 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
-          TURBO-TOKEN: GYc2c2Kh1HEGTny6a1n4mQax
-          TURBO-TEAM: guivieirasilvas-projects
+          TURBO_TOKEN: ${{ secrets.VERCEL_TOKEN }}
+          TURBO_TEAM: guivieirasilvas-projects
